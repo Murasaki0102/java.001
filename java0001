@@ -1,0 +1,54 @@
+package first;
+
+public class first {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		//データ型
+		int[]score=new int[3];
+		score[0]=80;
+		score[1]=100;
+		score[2]=75;
+		
+		String[] name= {"川上","西田","喜朗"};
+		
+		System.out.println(name[0]+"さん"+score[0]+"点でした");
+		System.out.println(name[1]+"さん"+score[1]+"点でした");
+		System.out.println(name[2]+"さん"+score[2]+"点でした");
+		System.out.println("受験者数"+score.length+"名");
+		
+		int[]sweet=new int[3];
+		sweet[0]=8;
+		sweet[1]=7;
+		sweet[2]=5;
+		
+		String[] fruit={"桃","バナナ","チョコレート"};
+		
+		System.out.println(fruit[0]+"の糖度スコアは"+sweet[0]+"％でした。");
+		System.out.println(fruit[1]+"の糖度スコアは"+sweet[1]+"％でした。");
+		System.out.println(fruit[2]+"の糖度スコアは"+sweet[2]+"％でした。");
+		System.out.println("フルーツの種類は"+sweet.length+"種類");
+		
+		/*
+		 * ここは複数行にわたってコメントが可能です。
+		 * 言いたい放題パラダイス
+		 */
+		//多次元配列
+		//int[][]allScore=new int[2][3];
+		//２行３列の多次元配列の生成
+		/*allScore[0][0]=80;
+		allScore[0][1]=100;
+		allScore[0][2]=75;
+		allScore[1][0]=80;
+		allScore[1][1]=65;
+		allScore[1][2]=40;*/
+		//多次元配列の初期化
+		int[][]allScore={{10,20,30},{40,50,60}};
+		System.out.println(allScore[0][0]+"点でした。");
+		System.out.println("allScore.length"+allScore.length);
+		//行の数が出力された
+		System.out.println("allScore[0].length"+allScore[0].length);
+		//列の数が出力された
+	}
+
+}
