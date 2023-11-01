@@ -1,0 +1,22 @@
+package cmd_line;
+
+public class CmdLine {
+
+	public static void main(String[]args) {
+		//変数の宣言と値の代入
+		int num=10;
+		double pi=3.14;
+		char blood='O';
+		//charはシングルクオーテーションで囲みましょう。
+		boolean fun=true;
+		String msg=("これはケフィア");
+		//値の指示
+		System.out.println(num);
+		System.out.println(pi);
+		System.out.println(blood);
+		System.out.println(fun);
+		System.out.println(msg);
+		
+	}
+}
+//Javaプログラミングの練習問題
