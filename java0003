@@ -1,0 +1,27 @@
+package cmd_line;
+
+public class CmdLine {
+	  public static void main(String[] args){
+      //配列＆算術演算子
+	    //配列の生成
+		  String [] value=new String[7];
+		//配列に値を代入
+		  value[0]="++,--";
+		  value[1]="*,/,%";
+		  value[2]="+,-";
+		  value[3]="<,>,<=,>=";
+		  value[4]="==,!=";
+		  value[5]="&&,||";
+		  value[6]="=,+=,-=,*=,/=,%=";
+		  //値を表示
+		  System.out.println("1"+value[0]+"インクリメント、デクリメント");
+		  System.out.println("2"+value[1]+"積、商、余り");
+		  System.out.println("3"+value[2]+"和、差");
+		  System.out.println("4"+value[3]+"比較演算子");
+		  System.out.println("4"+value[3]+"等しいか");
+		  System.out.println("4"+value[3]+"論理演算子");
+		  System.out.println("4"+value[3]+"代入、複合代入");
+		  
+		  
+	  }
+	  }
