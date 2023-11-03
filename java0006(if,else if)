@@ -1,0 +1,24 @@
+package cmd_line;
+
+public class CmdLine {
+	  public static void main(String[] args){
+		  //基本データ型の型変換＆消費税の計算
+		  int price=Integer.parseInt(args[0]);
+		  double rate=0.1; //消費税:10%
+		  int discount, amount;
+		  //値引き額を代入するための"discount"を用意
+		  
+		  if(price>=5000) {
+			  discount=500;
+		  }else if(price>=3000){
+			  discount=300;
+		  }else{
+			  discount=0;
+		  }
+		  
+		  amount=(int)((price-discount)*(1+rate));
+		  //rateはdouble型となっているため(int)キャストしてint型へと変更している。
+		  System.out.println("値引き金額"+discount+"円です。");
+		  System.out.println("税込み金額"+amount+"円です。");
+	  }
+	  }
