@@ -1,0 +1,25 @@
+package cmd_line;
+
+public class CmdLine {
+	  public static void main(String[] args){
+		  
+				// TODO 自動生成されたメソッド・スタブ
+				//データ型
+				int[]score=new int[3];
+				score[0]=80;
+				score[1]=100;
+				score[2]=75;
+				
+				String[] name= {"川上","西田","喜朗"};
+				
+				//System.out.println(name[0]+"さん"+score[0]+"点でした");
+				//System.out.println(name[1]+"さん"+score[1]+"点でした");
+				//System.out.println(name[2]+"さん"+score[2]+"点でした");
+				//↑のサンプルコードをfor文で表現したもの。
+				for (int i=0;i<score.length;i++) {
+					System.out.println(name[i]+"さん"+score[i]+"点");
+				}
+				System.out.println("受験者数"+score.length+"名");
+	  }
+	  }
+//for文は繰り返しの回数、配列の各要素に対して何かをしたりする時に相性の良い書き方
