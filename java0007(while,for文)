@@ -1,0 +1,16 @@
+package cmd_line;
+
+public class CmdLine {
+	  public static void main(String[] args){
+		  //while文
+		  int i=0;
+		  while(i<3) {
+			  System.out.println("i="+i);
+			  i++;
+	     //for文
+			  //for (int=o;i<3;i++){
+			  //System.out.println("i="+i);
+			  //}
+		  }
+	  }
+}
