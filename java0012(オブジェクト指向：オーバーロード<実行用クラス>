@@ -1,0 +1,16 @@
+package first;
+
+public class Score_overroad {
+public static void main(String[]args) {
+	Overroad stu1=new Overroad();
+	Overroad stu2=new Overroad();
+	
+	stu1.setData("川上");//宣言
+	stu1.setScore(90,80);//代入
+	stu1.display();//参照
+	
+	stu2.setData("保手浜",40,20);
+	stu2.display();
+	
+}
+}
